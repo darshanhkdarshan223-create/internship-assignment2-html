@@ -1,83 +1,50 @@
----
+# Simple HTML Authenticate Page
 
-## 🧩 Pages Description
+# Simple HTML Authentication System
 
-### 1️⃣ login.html
-- Allows users to enter username and password.
-- Redirects to:
-  - `dashboard.html` on Sign In
-  - `forgot-password.html` if password is forgotten
-  - `register.html` for new users
+## Overview
+This project demonstrates a basic authentication flow using only HTML.
+
+The system includes 5 pages connected using anchor tag redirections.
 
 ---
 
-### 2️⃣ register.html
-- Allows new users to create an account.
-- Collects:
-  - Full Name
-  - Email
-  - Mobile Number
-  - Password
-  - Confirm Password
-- Redirects back to login page after registration.
+## Files Included
+
+- login.html  
+- register.html  
+- forgot-password.html  
+- reset-password.html  
+- dashboard.html  
 
 ---
 
-### 3️⃣ dashboard.html
-- Displays a welcome message after login.
-- Contains Logout button that redirects to login page.
+## Features
+
+- User Login  
+- Account Registration  
+- Password Reset Flow  
+- Dashboard Page  
+- Logout Option  
+- Plain HTML (No CSS, No JavaScript)  
 
 ---
 
-### 4️⃣ forgot-password.html
-- User enters registered email.
-- Redirects back to login page after clicking reset link button.
+## Navigation Flow
+
+Login → Dashboard  
+Register → Login  
+Forgot Password → Login  
+Reset Password → Login  
+Dashboard → Logout → Login  
 
 ---
 
-### 5️⃣ reset-password.html
-- Allows user to set a new password.
-- Redirects to login page after updating password.
+## How to Use
+
+1. Open `login.html` in a browser.  
+2. Navigate between pages using the buttons and links.  
 
 ---
 
-## 🚀 How to Run the Project
-
-1. Download or clone the project.
-2. Extract the folder (if zipped).
-3. Open `login.html` in any web browser.
-4. Navigate between pages using buttons and links.
-
----
-
-## 🛠 Technologies Used
-
-- HTML5
-- Basic Hyperlinks
-- Forms
-- Buttons
-
----
-
-## 🎯 Purpose of the Project
-
-- To understand multi-page website structure
-- To practice form creation in HTML
-- To learn linking between pages
-- Suitable for beginners in web development
-
----
-
-## ⚡ Future Improvements
-
-- Add CSS styling
-- Add JavaScript form validation
-- Connect to backend (PHP / Node.js / Python)
-- Add database integration (MySQL / MongoDB)
-- Implement real authentication logic
-
----
-
-## 👨‍💻 Author
-
-Created as a beginner-level HTML project.
+Created as part of HTML Authentication System Assignment.
