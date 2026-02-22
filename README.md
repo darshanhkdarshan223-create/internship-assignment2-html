@@ -1,8 +1,8 @@
 ---
 
-##  Pages Description
+## 🧩 Pages Description
 
-### 1️ login.html
+### 1️⃣ login.html
 - Allows users to enter username and password.
 - Redirects to:
   - `dashboard.html` on Sign In
@@ -11,7 +11,7 @@
 
 ---
 
-### 2️ register.html
+### 2️⃣ register.html
 - Allows new users to create an account.
 - Collects:
   - Full Name
@@ -23,25 +23,25 @@
 
 ---
 
-### 3️ dashboard.html
+### 3️⃣ dashboard.html
 - Displays a welcome message after login.
 - Contains Logout button that redirects to login page.
 
 ---
 
-### 4️ forgot-password.html
+### 4️⃣ forgot-password.html
 - User enters registered email.
 - Redirects back to login page after clicking reset link button.
 
 ---
 
-### 5️ reset-password.html
+### 5️⃣ reset-password.html
 - Allows user to set a new password.
 - Redirects to login page after updating password.
 
 ---
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
 1. Download or clone the project.
 2. Extract the folder (if zipped).
@@ -50,7 +50,7 @@
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - HTML5
 - Basic Hyperlinks
@@ -59,7 +59,7 @@
 
 ---
 
-## Purpose of the Project
+## 🎯 Purpose of the Project
 
 - To understand multi-page website structure
 - To practice form creation in HTML
@@ -68,7 +68,7 @@
 
 ---
 
-## Future Improvements
+## ⚡ Future Improvements
 
 - Add CSS styling
 - Add JavaScript form validation
@@ -78,6 +78,6 @@
 
 ---
 
-##  Author
+## 👨‍💻 Author
 
 Created as a beginner-level HTML project.
