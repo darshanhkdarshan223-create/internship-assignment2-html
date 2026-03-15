@@ -1,50 +1,108 @@
-# Simple HTML Authenticate Page
+# Authentication System Styling
 
-# Simple HTML Authentication System
+## Project Overview
+This project is a **styled authentication system** developed as part of the **Fullstack Java Development course at CampusPe**.  
+The goal of this assignment is to convert a basic HTML authentication system into a **professional, responsive web application using Bootstrap 5 and custom CSS**.
 
-## Overview
-This project demonstrates a basic authentication flow using only HTML.
+The project includes the following pages:
 
-The system includes 5 pages connected using anchor tag redirections.
+- Login Page
+- Registration Page
+- Forgot Password Page
+- Reset Password Page
+- Dashboard Page
 
 ---
 
-## Files Included
+## Technologies Used
 
-- login.html  
-- register.html  
-- forgot-password.html  
-- reset-password.html  
-- dashboard.html  
+- HTML5
+- CSS3
+- Bootstrap 5
+- Bootstrap Icons
+- Google Fonts
+- JavaScript (Basic Validation)
 
 ---
 
 ## Features
 
-- User Login  
-- Account Registration  
-- Password Reset Flow  
-- Dashboard Page  
-- Logout Option  
-- Plain HTML (No CSS, No JavaScript)  
+### Bootstrap Integration
+- Bootstrap 5 CDN added to all HTML pages
+- Bootstrap components used:
+  - Cards
+  - Forms
+  - Buttons
+  - Navbar
+
+### Responsive Design
+The application is responsive and works across different screen sizes:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+### Custom CSS Styling
+A separate **styles.css** file was created to add:
+
+- Custom color scheme
+- Google Fonts
+- Button hover effects
+- Card shadows
+- Smooth transitions
+- Gradient background
 
 ---
 
-## Navigation Flow
+## Pages Description
 
-Login → Dashboard  
-Register → Login  
-Forgot Password → Login  
-Reset Password → Login  
-Dashboard → Logout → Login  
+### Login Page
+The login page allows users to enter a username and password to access the system.
 
----
-
-## How to Use
-
-1. Open `login.html` in a browser.  
-2. Navigate between pages using the buttons and links.  
+Features:
+- Bootstrap card layout
+- Styled input fields
+- Login button
+- Links to registration and forgot password pages
 
 ---
 
-Created as part of HTML Authentication System Assignment.
+### Registration Page
+Allows new users to create an account.
+
+Fields included:
+- Full Name
+- Email Address
+- Mobile Number
+- Password
+- Confirm Password
+
+---
+
+### Forgot Password Page
+Users who forget their password can enter their registered email address to request a password reset.
+
+---
+
+### Reset Password Page
+Allows users to create a new password.
+
+Features:
+- New password field
+- Confirm password field
+- Password visibility toggle
+
+---
+
+### Dashboard Page
+After successful login, users are redirected to the dashboard page.
+
+Features:
+- Bootstrap navbar
+- Welcome message
+- Logout button
+
+---
+
+## Project Structure
