@@ -1,0 +1,100 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Global Body Styling */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+}
+
+/* Container spacing */
+.container{
+    padding-top: 40px;
+}
+
+/* Card Styling */
+.card{
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+/* Card hover effect */
+.card:hover{
+    transform: translateY(-5px);
+}
+
+/* Headings */
+h1, h2, h3{
+    font-weight: 600;
+    color: #333;
+}
+
+/* Form Inputs */
+.form-control{
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Input focus effect */
+.form-control:focus{
+    box-shadow: 0 0 5px rgba(102,126,234,0.5);
+    border-color: #667eea;
+}
+
+/* Buttons */
+.btn{
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Button hover animation */
+.btn:hover{
+    transform: scale(1.05);
+}
+
+/* Links */
+a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Link hover */
+a:hover{
+    text-decoration: underline;
+}
+
+/* Navbar Styling */
+.navbar{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Dashboard content */
+.dashboard-container{
+    margin-top: 80px;
+}
+
+/* Center forms vertically */
+.vh-center{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive design */
+@media (max-width:768px){
+
+    .card{
+        margin: 20px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+}
