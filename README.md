@@ -104,7 +104,9 @@ Features:
 - Logout button
 
 ---
-###**screenshots/**
-
-
-## Project Structure
+###**screenshots**/
+Login.png - "C:\Users\darsh\Pictures\Screenshots\login.png.png" 
+register.png - "C:\Users\darsh\Pictures\Screenshots\register.png.png" 
+forgot-password.png - "C:\Users\darsh\Pictures\Screenshots\forget-password.png.png"
+reset-password.png - "C:\Users\darsh\Pictures\Screenshots\reset-password.png.png"
+dashboard.png - "C:\Users\darsh\Pictures\Screenshots\dashboard.png.png"
