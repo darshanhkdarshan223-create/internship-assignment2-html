@@ -42,58 +42,71 @@ This project transforms a basic HTML authentication system into a **professional
 
 This application is fully responsive and tested on:
 
-- Desktop (1920px and above)
-- Laptop (1366px - 1920px)
-- Tablet (768px - 1024px)
-- Mobile (320px - 767px)
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+### Custom CSS Styling
+A separate **styles.css** file was created to add:
+
+- Custom color scheme
+- Google Fonts
+- Button hover effects
+- Card shadows
+- Smooth transitions
+- Gradient background
 
 ---
 
-## 📂 Project Structure
-## 📁 Project Structure
+## Pages Description
 
-```
-authentication-system-styled/
-│
-├── index.html
-├── register.html
-├── forgot-password.html
-├── reset-password.html
-├── dashboard.html
-├── styles.css
-├── script.js
-│
-└── screenshots/
-    ├── login.png
-    ├── register.png
-    ├── forgot.png
-    ├── reset.png
-    └── dashboard.png
-```
+### Login Page
+The login page allows users to enter a username and password to access the system.
+
+Features:
+- Bootstrap card layout
+- Styled input fields
+- Login button
+- Links to registration and forgot password pages
 
 ---
 
-## 📸 Screenshots
+### Registration Page
+Allows new users to create an account.
 
-All page screenshots are available inside the **screenshots folder**.
-
----
-
-## 🎯 Assignment Objectives Achieved
-
-- Bootstrap Integration on all pages
-- Professional UI Design
-- Custom CSS Styling
-- Responsive Layout
-- Interactive UI Features
-- Clean Code Structure
-- Proper Navigation Flow
+Fields included:
+- Full Name
+- Email Address
+- Mobile Number
+- Password
+- Confirm Password
 
 ---
 
-## 👨‍💻 Author
+### Forgot Password Page
+Users who forget their password can enter their registered email address to request a password reset.
 
-Assignment Submission  
-CampusPe Fullstack Java Development Course BY - Darshan H K
+---
 
-Mentor: Jacob Dennis
+### Reset Password Page
+Allows users to create a new password.
+
+Features:
+- New password field
+- Confirm password field
+- Password visibility toggle
+
+---
+
+### Dashboard Page
+After successful login, users are redirected to the dashboard page.
+
+Features:
+- Bootstrap navbar
+- Welcome message
+- Logout button
+
+---
+
+## Project Structure
