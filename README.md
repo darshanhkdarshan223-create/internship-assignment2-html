@@ -42,71 +42,58 @@ This project transforms a basic HTML authentication system into a **professional
 
 This application is fully responsive and tested on:
 
-- Desktop
-- Laptop
-- Tablet
-- Mobile
-
-### Custom CSS Styling
-A separate **styles.css** file was created to add:
-
-- Custom color scheme
-- Google Fonts
-- Button hover effects
-- Card shadows
-- Smooth transitions
-- Gradient background
+- Desktop (1920px and above)
+- Laptop (1366px - 1920px)
+- Tablet (768px - 1024px)
+- Mobile (320px - 767px)
 
 ---
 
-## Pages Description
+## 📂 Project Structure
+## 📁 Project Structure
 
-### Login Page
-The login page allows users to enter a username and password to access the system.
-
-Features:
-- Bootstrap card layout
-- Styled input fields
-- Login button
-- Links to registration and forgot password pages
-
----
-
-### Registration Page
-Allows new users to create an account.
-
-Fields included:
-- Full Name
-- Email Address
-- Mobile Number
-- Password
-- Confirm Password
-
----
-
-### Forgot Password Page
-Users who forget their password can enter their registered email address to request a password reset.
+```
+authentication-system-styled/
+│
+├── index.html
+├── register.html
+├── forgot-password.html
+├── reset-password.html
+├── dashboard.html
+├── styles.css
+├── script.js
+│
+└── screenshots/
+    ├── login.png
+    ├── register.png
+    ├── forgot.png
+    ├── reset.png
+    └── dashboard.png
+```
 
 ---
 
-### Reset Password Page
-Allows users to create a new password.
+## 📸 Screenshots
 
-Features:
-- New password field
-- Confirm password field
-- Password visibility toggle
+All page screenshots are available inside the **screenshots folder**.
 
 ---
 
-### Dashboard Page
-After successful login, users are redirected to the dashboard page.
+## 🎯 Assignment Objectives Achieved
 
-Features:
-- Bootstrap navbar
-- Welcome message
-- Logout button
+- Bootstrap Integration on all pages
+- Professional UI Design
+- Custom CSS Styling
+- Responsive Layout
+- Interactive UI Features
+- Clean Code Structure
+- Proper Navigation Flow
 
 ---
 
-## Project Structure
+## 👨‍💻 Author
+
+Assignment Submission  
+CampusPe Fullstack Java Development Course BY - Darshan H K
+
+Mentor: Jacob Dennis
